@@ -76,6 +76,11 @@ header{
     transition: all .5s ease;
 }
 
+.header-icons a{
+    text-decoration: none;
+    color: white;
+}
+
 .header-icons i :hover{
     transform: translateY(-5px);
     color: var(--main-color);
@@ -90,6 +95,9 @@ header{
     gap: 2rem;
 }
 
+.home-text{
+}
+
 .home-text h1{
     font-size: var(--h1-font);
     line-height: 1.2;
@@ -101,6 +109,7 @@ header{
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 60px;
+  
 }
 
 .home-text h3{
