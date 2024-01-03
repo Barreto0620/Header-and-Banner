@@ -164,13 +164,14 @@ header {
 }
 
 .main li img {
-  width: 70px;
+  padding-top: 10px;
+  width: 50px;
   height: auto;
   max-width: 100%;
 }
 
 .row {
-  background: #ff758d;
+  background: #A1EEBD;
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -185,7 +186,7 @@ header {
 }
 
 .row2 {
-  background: #5eb0e5;
+  background: #F6D6D6;
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -200,7 +201,7 @@ header {
 }
 
 .row3 {
-  background: #ffe681;
+  background: #7BD3EA;
   height: 70px;
   width: 70px;
   border-radius: 50%;
