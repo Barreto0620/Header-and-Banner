@@ -33,10 +33,6 @@ header {
   padding: 30px 8%;
 }
 
-.container {
-  margin-top: 5%;
-}
-
 .logo {
   display: flex;
   align-items: center;
@@ -61,16 +57,16 @@ header {
   color: var(--main-color);
 }
 
-.header-icons {
-  display: flex;
-  align-items: center;
-}
-
 #menu {
   font-size: 35px;
   color: var(--tex-color);
   z-index: 10001;
   cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
 }
 
 .header-icons i {
@@ -90,6 +86,47 @@ header {
   color: var(--main-color);
 }
 
+/* Inicio Banner IPHONE */
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
+.banner .content {
+  position: absolute;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5.5em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.banner .content p {
+  font-size: 1.5em;
+  color: #ffff;
+}
+.banner .content img {
+  width: 40px;
+  height: 40px;
+}
+
+
 .home {
   position: relative;
   height: 100vh;
@@ -98,6 +135,14 @@ header {
   align-items: center;
   gap: 2rem;
 }
+
+.home-img img {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  margin-left: 100%;
+}
+
 .home-text h1 {
   font-size: var(--h1-font);
   line-height: 1.2;
@@ -121,13 +166,6 @@ header {
   letter-spacing: 2px;
   margin-bottom: 35px;
   margin-left: 30%;
-}
-
-.home-img img {
-  max-width: 100%;
-  width: 400px;
-  height: auto;
-  margin-left: 100%;
 }
 
 .one {
@@ -216,3 +254,123 @@ header {
 }
 
 /* FIM BANNER IPHONE */
+
+
+/* Inicio Banner SAMSUNG */
+
+.home_2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-text_2 h1 {
+  font-size: var(--h1-font);
+  line-height: 1.2;
+  margin-bottom: 2px;
+  margin-left: 30%;
+}
+
+.home-text_2 h5 {
+  color: #ffffff99;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  margin-left: 30%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+.home-text_2 h3 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+  margin-left: 30%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 70px;
+  font-size: 16px;
+  font-weight: 500;
+  background: transparent;
+  border: solid 2px var(--tex-color);
+  transition: all 0.55 ease;
+  color: #fff;
+  margin-left: 30%;
+}
+
+.btn:hover {
+  background: var(--tex-color);
+  border: 2px solid var(--tex-color);
+  color: #000;
+}
+
+.main_2 {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main_2 li img {
+  padding-top: 10px;
+  width: 50px;
+  height: auto;
+  max-width: 100%;
+}
+
+.row_s-1 {
+  background: #a1eebd;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all.55s ease;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.row_s-1:hover {
+  transform: translateY(-8px);
+}
+
+.row_s-2 {
+  background: #f6d6d6;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all.55s ease;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.row_s-2:hover {
+  transform: translateY(-8px);
+}
+
+.row_s-3 {
+  background: #7bd3ea;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all.55s ease;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.row_s-3:hover {
+  transform: translateY(-8px);
+}
+
+/* FIM BANNER SAMSUNG */
